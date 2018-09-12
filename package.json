@@ -1,0 +1,20 @@
+{
+  "name": "express-react-server",
+  "version": "1.0.0",
+  "description": "Express.js and socket.io server",
+  "main": "server/index.js",
+  "scripts": {
+    "postinstall": "cd client && npm install",
+    "start": "node server/index.js"
+  },
+  "author": "Harry Xue",
+  "license": "AGPL-3.0",
+  "private": true,
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "express": "^4.16.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "socket.io": "^2.1.1"
+  }
+}
